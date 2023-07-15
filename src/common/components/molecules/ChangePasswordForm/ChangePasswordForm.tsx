@@ -17,7 +17,7 @@ const ChangePasswordForm = ({
         label={'Current Password'}
         value={data.oldPassword}
         type={'password'}
-        name='oldPassword'
+        name="oldPassword"
       />
       <Input
         placeholder={'Enter new password'}
@@ -25,11 +25,11 @@ const ChangePasswordForm = ({
         label={'New Password'}
         value={data.newPassword}
         type="password"
-        name={"newPassword"}
+        name={'newPassword'}
       />
       <div className="button-wrapper">
         <Button onClick={onSubmit} fullWidth>
-          Reset 
+          Reset
         </Button>
       </div>
     </form>

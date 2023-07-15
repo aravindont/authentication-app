@@ -2,8 +2,6 @@ import React from 'react'
 import { createColumnHelper } from '@tanstack/react-table'
 import Table from 'common/components/atoms/Table'
 
-
-
 const defaultData: Person[] = [
   {
     passengerName: 'Sherwin',
@@ -45,7 +43,6 @@ const columns = [
     header: () => <span>Head Quaters</span>,
     cell: (info) => info.renderValue(),
   }),
-
 ]
 const DashboardTable = () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
